@@ -1,12 +1,21 @@
 <?php
-$pageTitle = 'Athens Vibe Coding Competition 2026 – Eurovi.be';
-$extraStyles = '/2026_Athens/style.css';
+$pageTitle       = 'Athens Vibe Coding Competition 2026 | Drupal Developer Days | Eurovi.be';
+$metaDescription = 'Compete in the Athens Vibe Coding Competition on April 22-25, 2026 at OTE Academy, Marousi, Athens, Greece. Build a complete application live on stage using Claude, Cursor, or any AI tool. Open to all developers worldwide. Physical presence required.';
+$metaKeywords    = 'vibe coding competition Athens 2026, AI coding competition Greece, Drupal Developer Days Athens 2026, coding competition OTE Academy Marousi, Claude AI coding contest, vibe coding April 2026, developer competition Athens Greece, AI-assisted coding competition';
+$ogDescription   = 'Open AI-assisted coding competition at Drupal Developer Days Athens 2026. Build a complete application live on stage at OTE Academy, Marousi, Athens. April 22-25, 2026. Register now.';
+$extraStyles     = '/2026_Athens/style.css';
+$geoMeta         = '
+    <meta name="geo.region" content="GR-I">
+    <meta name="geo.placename" content="Marousi, Athens, Greece">
+    <meta name="geo.position" content="38.0500;23.8000">
+    <meta name="ICBM" content="38.0500, 23.8000">
+';
 include __DIR__ . '/../includes/header.php';
 ?>
 
     <!-- DDD2026 Context Banner -->
-    <div class="ddd-banner" style="margin-top: 70px;">
-        Part of <a href="https://devdays2026.drupal.org.gr/" target="_blank" rel="noopener">Drupal Developer Days Athens 2026</a> | April 22&ndash;25 &amp; July 4, 2026 | OTE Academy, Athens, Greece
+    <div class="ddd-banner">
+        Part of <a href="https://devdays2026.drupal.org.gr/" target="_blank" rel="noopener">Drupal Developer Days Athens 2026</a> | April 22-25, 2026 | OTE Academy, Athens, Greece
     </div>
 
     <!-- Hero Section -->
@@ -14,7 +23,7 @@ include __DIR__ . '/../includes/header.php';
         <div class="hero-content">
             <p class="logo" aria-hidden="true">EUROVI.BE | ATHENS</p>
             <h1 id="hero-heading">Vibe Coding Competition</h1>
-            <p class="tagline">Let your 🦞 work for you. Build a complete application, live on stage, in Athens, Greece.</p>
+            <p class="tagline">Build a complete application live on stage in Athens, Greece. Direct your 🦞 and show what it can do.</p>
 
             <div class="event-details" role="list" aria-label="Event details">
                 <div class="detail-item" role="listitem">
@@ -23,7 +32,7 @@ include __DIR__ . '/../includes/header.php';
                 </div>
                 <div class="detail-item" role="listitem">
                     <span class="detail-icon" aria-hidden="true">📅</span>
-                    <span><strong><time datetime="2026-07-04">Saturday, July 4, 2026</time></strong></span>
+                    <span><strong><time datetime="2026-04-22">April 22-25, 2026</time></strong></span>
                 </div>
                 <div class="detail-item" role="listitem">
                     <span class="detail-icon" aria-hidden="true">⏰</span>
@@ -92,7 +101,7 @@ include __DIR__ . '/../includes/header.php';
                     <li>We review all submissions</li>
                     <li>The top 3 finalists are chosen</li>
                     <li>Selected participants are notified directly</li>
-                    <li>Finalists must be present in Athens on July 4, 2026</li>
+                    <li>Finalists must be present in Athens on April 22-25, 2026</li>
                 </ul>
             </div>
 
@@ -209,7 +218,7 @@ include __DIR__ . '/../includes/header.php';
                     Who can participate?
                 </button>
                 <div class="faq-answer" id="faq-a1" role="region">
-                    Anyone can apply. The competition is completely open: no invitation, no qualification round, no affiliation required. Submit your profile, and if you are selected as a top 3 finalist, you must be physically present in Athens on July 4, 2026.
+                    Anyone can apply. The competition is completely open: no invitation, no qualification round, no affiliation required. Submit your profile, and if you are selected as a top 3 finalist, you must be physically present in Athens on April 22-25, 2026.
                 </div>
             </div>
 
@@ -218,7 +227,7 @@ include __DIR__ . '/../includes/header.php';
                     Is physical presence in Athens required?
                 </button>
                 <div class="faq-answer" id="faq-a2" role="region">
-                    Yes. The final competition takes place on stage at OTE Academy in Marousi, Athens, Greece on July 4, 2026. If you are selected as a finalist, you must be present in person. Travel and accommodation are the responsibility of the participant.
+                    Yes. The final competition takes place on stage at OTE Academy in Marousi, Athens, Greece on April 22-25, 2026. If you are selected as a finalist, you must be present in person. Travel and accommodation are the responsibility of the participant.
                 </div>
             </div>
 
@@ -269,7 +278,8 @@ include __DIR__ . '/../includes/header.php';
         </div>
     </section>
 
-    <!-- Sponsors Section -->
+    <?php /*
+    Sponsors Section — hidden until confirmed sponsors
     <section class="sponsors-section" id="sponsors" aria-labelledby="sponsors-heading">
         <h2 id="sponsors-heading" class="section-title">Sponsors</h2>
         <p class="section-subtitle">Proudly supported by</p>
@@ -294,5 +304,117 @@ include __DIR__ . '/../includes/header.php';
             <a href="/contact.php" class="btn btn-secondary">Become a Sponsor</a>
         </div>
     </section>
+    */ ?>
+
+    <!-- Structured Data: Event -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Event",
+        "name": "Athens Vibe Coding Competition 2026",
+        "description": "An open AI-assisted vibe coding competition co-located with Drupal Developer Days Athens 2026. Developers build a complete application live on stage at OTE Academy, Marousi, Athens, Greece. Open to all. Physical presence required.",
+        "url": "https://eurovi.be/2026_Athens",
+        "startDate": "2026-04-22T09:00:00+03:00",
+        "endDate": "2026-04-25T18:00:00+03:00",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "isAccessibleForFree": true,
+        "inLanguage": "en",
+        "location": {
+            "@type": "Place",
+            "name": "OTE Academy",
+            "url": "https://oteacademy.gr",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Pelika and Spartis 1",
+                "addressLocality": "Marousi",
+                "addressRegion": "Attica",
+                "postalCode": "15122",
+                "addressCountry": "GR"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "38.0500",
+                "longitude": "23.8000"
+            }
+        },
+        "organizer": {
+            "@type": "Organization",
+            "name": "Eurovi.be",
+            "url": "https://eurovi.be"
+        },
+        "superEvent": {
+            "@type": "Event",
+            "name": "Drupal Developer Days Athens 2026",
+            "url": "https://devdays2026.drupal.org.gr/"
+        },
+        "offers": {
+            "@type": "Offer",
+            "url": "https://eurovi.be/2026_Athens#register",
+            "price": "0",
+            "priceCurrency": "EUR",
+            "availability": "https://schema.org/InStock"
+        },
+        "image": "https://eurovi.be/images/og-image.jpg"
+    }
+    </script>
+
+    <!-- Structured Data: FAQ -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Who can participate in the Athens Vibe Coding Competition 2026?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Anyone can apply. The competition is completely open: no invitation, no qualification round, no affiliation required. Submit your profile, and if you are selected as a top 3 finalist, you must be physically present in Athens on April 22-25, 2026."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is physical presence in Athens required?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. The final competition takes place on stage at OTE Academy in Marousi, Athens, Greece on April 22-25, 2026. If you are selected as a finalist, you must be present in person. Travel and accommodation are the responsibility of the participant."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What AI tools can I use in the vibe coding competition?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You may use any AI assistant: Claude, Cursor, Windsurf, GitHub Copilot, or any other tool. Any programming language and framework is allowed. The choice of AI tools is part of what the judges evaluate."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does the selection process work?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Submit your profile including your AI tools, an example project, your GitHub and Drupal.org profiles, and a screen-recorded video of you building with AI assistance. The organizers review all submissions and select the 3 strongest candidates, who then compete live on stage."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How are projects judged at the Athens Vibe Coding Competition?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Projects are judged on five criteria: business impact, code quality, AI efficiency, Drupal and open source relevance, and creativity and design. The challenge is revealed live on the day. Judging is transparent and takes place in front of the audience."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Will the Athens Vibe Coding Competition be livestreamed?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Finalists' screens will be projected live and the competition will be streamed online. By competing, participants agree their screen may be shared with the live audience and online viewers."
+                }
+            }
+        ]
+    }
+    </script>
 
 <?php include __DIR__ . '/../includes/footer.php'; ?>

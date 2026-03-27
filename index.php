@@ -1,5 +1,8 @@
 <?php
-$pageTitle = 'Eurovi.be – European Vibe Coding Championship';
+$pageTitle       = 'Eurovi.be | European Vibe Coding Championship';
+$metaDescription = 'Eurovi.be organises AI-assisted vibe coding competitions at developer events across Europe. Developers build complete applications live on stage using Claude, Cursor, and other AI tools. First edition: Athens, Greece, April 22-25, 2026.';
+$metaKeywords    = 'vibe coding competition, AI coding competition Europe, developer competition 2026, vibe coding championship, coding contest Europe, Claude AI competition, AI developer event, Drupal developer days';
+$ogDescription   = 'Europe\'s Vibe Coding Championship. Developers compete live on stage using AI tools. First edition co-located with Drupal Developer Days Athens 2026, April 22-25, 2026.';
 include 'includes/header.php';
 ?>
 
@@ -30,7 +33,7 @@ include 'includes/header.php';
                         <p class="competition-context">Part of Drupal Developer Days Athens 2026</p>
                         <div class="competition-details">
                             <span>📍 OTE Academy, Marousi, Athens</span>
-                            <span>📅 Saturday, July 4, 2026</span>
+                            <span>📅 April 22-25, 2026</span>
                             <span>🏆 Medal + prizes TBA</span>
                         </div>
                         <div class="competition-notice">
@@ -66,8 +69,8 @@ include 'includes/header.php';
     <section class="about-section" id="about" aria-labelledby="about-heading">
         <div class="about-content">
             <h2 id="about-heading" class="section-title">What is Eurovi.be?</h2>
-            <p class="about-text">Eurovi.be organises vibe coding competitions at developer events across Europe. Participants demonstrate what is possible when a skilled developer directs Claude 🦞 or another AI assistant with confidence and clarity, building complete, functional applications in a single sitting, live on stage.</p>
-            <p class="about-text">The best vibe coders don't just prompt. They architect, direct, and deliver. That is what we reward.</p>
+            <p class="about-text">Eurovi.be organises AI-assisted vibe coding competitions at developer events across Europe. Participants build complete, functional applications in a single sitting, live on stage, using AI tools such as Claude, Cursor, Windsurf, or GitHub Copilot.</p>
+            <p class="about-text">The best vibe coders do not just prompt. They architect, direct, and deliver. That is what we reward.</p>
             <div style="margin-top: 2.5rem;">
                 <a href="/2026_Athens" class="btn btn-primary">View Athens 2026</a>
             </div>
