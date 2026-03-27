@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.vibecodingcontest.com)",
+      "WebSearch",
+      "WebFetch(domain:devdays2026.drupal.org.gr)",
+      "WebFetch(domain:docs.google.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
