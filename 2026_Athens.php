@@ -1,6 +1,6 @@
 <?php
 $pageTitle       = 'Athens Vibe Coding Competition 2026 | Drupal Developer Days | Eurovi.be';
-$metaDescription = 'Compete in the Athens Vibe Coding Competition on April 22-25, 2026 at OTE Academy, Marousi, Athens, Greece. Build a complete application live on stage using Claude, Cursor, or any AI tool. Open to all developers worldwide. Physical presence required.';
+$metaDescription = 'Athens Vibe Coding Competition at Drupal Developer Days, April 22-25, 2026. Build an app live on stage using AI tools. Open to all developers. Register now.';
 $metaKeywords    = 'vibe coding competition Athens 2026, AI coding competition Greece, Drupal Developer Days Athens 2026, coding competition OTE Academy Marousi, Claude AI coding contest, vibe coding April 2026, developer competition Athens Greece, AI-assisted coding competition';
 $ogDescription   = 'Open AI-assisted coding competition at Drupal Developer Days Athens 2026. Build a complete application live on stage at OTE Academy, Marousi, Athens. April 22-25, 2026. Register now.';
 $extraStyles     = '/2026_Athens/style.css';
@@ -22,7 +22,7 @@ include 'includes/header.php';
     <section class="hero" id="main-content" aria-labelledby="hero-heading">
         <div class="hero-content">
             <p class="logo" aria-hidden="true">EUROVI.BE | ATHENS</p>
-            <h1 id="hero-heading">Vibe Coding Competition</h1>
+            <h1 id="hero-heading">Athens Vibe Coding Competition 2026</h1>
             <p class="tagline">Build a complete application live on stage in Athens, Greece. <br>Show us what your agents can do.</p>
 
             <div class="event-details" role="list" aria-label="Event details">
@@ -32,7 +32,7 @@ include 'includes/header.php';
                 </div>
                 <div class="detail-item" role="listitem">
                     <span class="detail-icon" aria-hidden="true">📅</span>
-                    <span><strong><time datetime="2026-04-22">April 22-25, 2026</time></strong></span>
+                    <span><strong><time datetime="2026-04-22/2026-04-25">April 22-25, 2026</time></strong></span>
                 </div>
                 <div class="detail-item" role="listitem">
                     <span class="detail-icon" aria-hidden="true">⏰</span>
@@ -412,6 +412,28 @@ include 'includes/header.php';
                     "@type": "Answer",
                     "text": "Yes. Finalists' screens will be projected live and the competition will be streamed online. By competing, participants agree their screen may be shared with the live audience and online viewers."
                 }
+            }
+        ]
+    }
+    </script>
+
+    <!-- Structured Data: Breadcrumb -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://eurovi.be"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Athens Vibe Coding Competition 2026",
+                "item": "https://eurovi.be/2026_Athens.php"
             }
         ]
     }
