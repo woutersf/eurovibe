@@ -91,7 +91,7 @@ include 'includes/header.php';
                 <p style="color: #c8c8d4; margin-bottom: 2rem; font-size: 1.1rem;">
                     Don't hesitate to reach out. We're here to help make your Eurovi.be experience amazing!
                 </p>
-                <a href="mailto:info@eurovi.be" class="btn btn-primary">Send Us an Email</a>
+                <a href="mailto:info@eurovi.be" class="btn btn-primary">Send me an Email</a>
             </div>
         </div>
     </section>

@@ -23,7 +23,7 @@ include __DIR__ . '/../includes/header.php';
         <div class="hero-content">
             <p class="logo" aria-hidden="true">EUROVI.BE | ATHENS</p>
             <h1 id="hero-heading">Vibe Coding Competition</h1>
-            <p class="tagline">Build a complete application live on stage in Athens, Greece. Direct your 🦞 and show what it can do.</p>
+            <p class="tagline">Build a complete application live on stage in Athens, Greece. <br>Show us what your agents can do.</p>
 
             <div class="event-details" role="list" aria-label="Event details">
                 <div class="detail-item" role="listitem">
@@ -236,7 +236,7 @@ include __DIR__ . '/../includes/header.php';
                     What AI tools can I use?
                 </button>
                 <div class="faq-answer" id="faq-a3" role="region">
-                    You may use any AI assistant: Claude 🦞, Cursor, Windsurf, GitHub Copilot, or any other tool. You can use any programming language and framework. Tell us about your preferred stack in the registration form. It is part of what we evaluate.
+                    You may use any AI assistant: Claude 🦞, Cursor, Windsurf, GitHub Copilot, or any other tool. You can use any programming language and framework. Tell us about your preferred stack in the registration form. It is part of what we evaluate. Obviously we like open source! 
                 </div>
             </div>
 
