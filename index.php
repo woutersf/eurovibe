@@ -43,7 +43,7 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="competition-entry-right">
-                    <a href="/2026_Athens" class="btn btn-primary">View &amp; Register &rarr;</a>
+                    <a href="/2026_Athens.php" class="btn btn-primary">View &amp; Register &rarr;</a>
                 </div>
             </article>
 
@@ -72,7 +72,7 @@ include 'includes/header.php';
             <p class="about-text">Eurovi.be organises AI-assisted vibe coding competitions at developer events across Europe. Participants build complete, functional applications in a single sitting, live on stage, using AI tools such as Claude, Cursor, Windsurf, or GitHub Copilot.</p>
             <p class="about-text">The best vibe coders do not just prompt. They architect, direct, and deliver. That is what we reward.</p>
             <div style="margin-top: 2.5rem;">
-                <a href="/2026_Athens" class="btn btn-primary">View Athens 2026</a>
+                <a href="/2026_Athens.php" class="btn btn-primary">View Athens 2026</a>
             </div>
         </div>
     </section>

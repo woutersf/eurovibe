@@ -9,7 +9,7 @@ Europe's vibe coding competition platform. Developers build complete application
 | Path | Description |
 |------|-------------|
 | `/` | Competitions overview — lists all active and upcoming editions |
-| `/2026_Athens` | Athens 2026 competition page — details, judging criteria, registration form |
+| `/2026_Athens.php` | Athens 2026 competition page — details, judging criteria, registration form |
 | `/contact.php` | Contact and sponsorship inquiries |
 | `/privacy.php` | Privacy policy |
 
@@ -25,8 +25,8 @@ eurovi.be/
 ├── includes/
 │   ├── header.php          # Shared <head>, nav — supports $pageTitle, $metaDescription, $extraStyles, $geoMeta
 │   └── footer.php          # Shared footer, Organization schema
+├── 2026_Athens.php         # Athens competition page
 └── 2026_Athens/
-    ├── index.php           # Athens competition page
     └── style.css           # Athens theme overrides (Mediterranean blue palette)
 ```
 
@@ -47,7 +47,7 @@ $geoMeta         = '...';               // optional, raw HTML string
 
 ## Athens 2026
 
-**[eurovi.be/2026_Athens](https://eurovi.be/2026_Athens)**
+**[eurovi.be/2026_Athens.php](https://eurovi.be/2026_Athens.php)**
 
 - Part of [Drupal Developer Days Athens 2026](https://devdays2026.drupal.org.gr/)
 - April 22-25, 2026 — OTE Academy, Marousi, Athens, Greece
