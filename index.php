@@ -1,8 +1,8 @@
 <?php
 $pageTitle       = 'Eurovi.be | European Vibe Coding Championship';
-$metaDescription = 'Eurovi.be organises AI-assisted vibe coding competitions at developer events across Europe. Developers build complete applications live on stage using Claude, Cursor, and other AI tools. First edition: Athens, Greece, April 22-25, 2026.';
-$metaKeywords    = 'vibe coding competition, AI coding competition Europe, developer competition 2026, vibe coding championship, coding contest Europe, Claude AI competition, AI developer event, Drupal developer days';
-$ogDescription   = 'Europe\'s Vibe Coding Championship. Developers compete live on stage using AI tools. First edition co-located with Drupal Developer Days Athens 2026, April 22-25, 2026.';
+$metaDescription = 'Eurovi.be organises AI-assisted vibe coding competitions at developer events across Europe. Developers build complete applications live on stage using Claude, Cursor, and other AI tools. Next edition: Kortrijk, Belgium, June 29-30, 2026.';
+$metaKeywords    = 'vibe coding competition, AI coding competition Europe, developer competition 2026, vibe coding championship, coding contest Europe, Claude AI competition, AI developer event, DrupalCamp Kortrijk, Drupal developer days';
+$ogDescription   = 'Europe\'s Vibe Coding Championship. Developers compete live on stage using AI tools. Next edition co-located with DrupalCamp Kortrijk 2026, June 29-30, 2026.';
 include 'includes/header.php';
 ?>
 
@@ -23,17 +23,17 @@ include 'includes/header.php';
 
         <div class="competitions-list">
 
-            <!-- Athens 2026 -->
-            <article class="competition-entry competition-entry--open" aria-label="Athens Vibe Coding Competition 2026">
+            <!-- Kortrijk 2026 -->
+            <article class="competition-entry competition-entry--open" aria-label="Kortrijk Vibe Coding Competition 2026">
                 <div class="competition-entry-left">
-                    <div class="competition-flag-wrap" aria-hidden="true">🇬🇷</div>
+                    <div class="competition-flag-wrap" aria-hidden="true">🇧🇪</div>
                     <div class="competition-info">
                         <div class="competition-status competition-status--open">Registration Open</div>
-                        <h3 class="competition-title">Athens Vibe Coding Competition 2026</h3>
-                        <p class="competition-context">Part of Drupal Developer Days Athens 2026</p>
+                        <h3 class="competition-title">Kortrijk Vibe Coding Competition 2026</h3>
+                        <p class="competition-context">Part of DrupalCamp Kortrijk 2026</p>
                         <div class="competition-details">
-                            <span>📍 OTE Academy, Marousi, Athens</span>
-                            <span>📅 April 22-25, 2026</span>
+                            <span>📍 Kortrijk, Belgium</span>
+                            <span>📅 June 29-30, 2026</span>
                             <span>🏆 Medal + prizes TBA</span>
                         </div>
                         <div class="competition-notice">
@@ -43,18 +43,37 @@ include 'includes/header.php';
                     </div>
                 </div>
                 <div class="competition-entry-right">
-                    <a href="/2026_Athens.php" class="btn btn-primary">View &amp; Register &rarr;</a>
+                    <a href="/2026_Kortrijk.php" class="btn btn-primary">View &amp; Register &rarr;</a>
                 </div>
             </article>
 
-            <!-- Upcoming -->
-            <article class="competition-entry competition-entry--upcoming" aria-label="Upcoming competition locations">
+            <!-- Athens 2026 (past edition) -->
+            <article class="competition-entry competition-entry--past" aria-label="Athens Vibe Coding Competition 2026">
                 <div class="competition-entry-left">
-                    <div class="competition-flag-wrap" aria-hidden="true">🇧🇪 🇳🇱</div>
+                    <div class="competition-flag-wrap" aria-hidden="true">🇬🇷</div>
+                    <div class="competition-info">
+                        <div class="competition-status competition-status--completed">Completed</div>
+                        <h3 class="competition-title">Athens Vibe Coding Competition 2026</h3>
+                        <p class="competition-context">Our first edition, at Drupal Developer Days Athens 2026</p>
+                        <div class="competition-details">
+                            <span>📍 OTE Academy, Marousi, Athens</span>
+                            <span>📅 April 22-25, 2026</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="competition-entry-right">
+                    <a href="https://frederikwouters.be/blog/vibe-coding-challenge-ddd-athens-2026" class="btn btn-secondary" target="_blank" rel="noopener">Read the Recap &rarr;</a>
+                </div>
+            </article>
+
+            <!-- Rotterdam (upcoming) -->
+            <article class="competition-entry competition-entry--upcoming" aria-label="Upcoming Rotterdam competition">
+                <div class="competition-entry-left">
+                    <div class="competition-flag-wrap" aria-hidden="true">🇳🇱</div>
                     <div class="competition-info">
                         <div class="competition-status competition-status--upcoming">Coming Soon</div>
-                        <h3 class="competition-title">Kortrijk &amp; Rotterdam Editions</h3>
-                        <p class="competition-context">Belgium and Netherlands competitions in development</p>
+                        <h3 class="competition-title">Rotterdam Edition</h3>
+                        <p class="competition-context">Netherlands competition in development</p>
                     </div>
                 </div>
                 <div class="competition-entry-right">
@@ -72,7 +91,7 @@ include 'includes/header.php';
             <p class="about-text">Eurovi.be organises AI-assisted vibe coding competitions at developer events across Europe. Participants build complete, functional applications in a single sitting, live on stage, using AI tools such as Claude, Cursor, Windsurf, or GitHub Copilot.</p>
             <p class="about-text">The best vibe coders do not just prompt. They architect, direct, and deliver. That is what we reward.</p>
             <div style="margin-top: 2.5rem;">
-                <a href="/2026_Athens.php" class="btn btn-primary">View Athens 2026</a>
+                <a href="/2026_Kortrijk.php" class="btn btn-primary">View Kortrijk 2026</a>
             </div>
         </div>
     </section>

@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Contact - Eurovi.be | OTE Academy, Athens, Greece';
+$pageTitle = 'Contact - Eurovi.be | European Vibe Coding Championship';
 include 'includes/header.php';
 ?>
 

@@ -6,8 +6,8 @@
     <title><?php echo isset($pageTitle) ? $pageTitle : 'Eurovi.be | European Vibe Coding Championship'; ?></title>
 
     <?php
-    $desc    = isset($metaDescription) ? $metaDescription : 'Eurovi.be organises AI-assisted vibe coding competitions at developer events across Europe. Developers build complete applications live on stage using Claude, Cursor, and other AI tools. First edition: Athens, Greece, April 22-25, 2026.';
-    $keys    = isset($metaKeywords)    ? $metaKeywords    : 'vibe coding competition, AI coding competition Europe, developer competition 2026, vibe coding championship, coding contest Athens 2026, AI developer event';
+    $desc    = isset($metaDescription) ? $metaDescription : 'Eurovi.be organises AI-assisted vibe coding competitions at developer events across Europe. Developers build complete applications live on stage using Claude, Cursor, and other AI tools. Next edition: Kortrijk, Belgium, June 29-30, 2026.';
+    $keys    = isset($metaKeywords)    ? $metaKeywords    : 'vibe coding competition, AI coding competition Europe, developer competition 2026, vibe coding championship, coding contest Kortrijk 2026, AI developer event';
     $ogDesc  = isset($ogDescription)   ? $ogDescription   : $desc;
     $ogImg   = isset($ogImage)         ? $ogImage         : 'https://eurovi.be/images/og-image.jpg';
     ?>
